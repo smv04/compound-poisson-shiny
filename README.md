@@ -69,7 +69,20 @@ Given N(t) = n:
 
 ## How to Run the Application
 
-Install required package:
+1. Install required package:
 
 ```r
 install.packages("shiny")
+
+2. Run the application
+
+```r
+library(shiny)
+runApp("path/to/folder")
+
+**## Interpretation**
+
+- Larger lambda → more jumps → larger S(t)
+- Larger mu → smaller jump sizes → smaller S(t)
+- Larger t → S(t) increases in both mean and variance
+- For large t → distribution of S(t) becomes approximately normal
