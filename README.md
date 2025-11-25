@@ -75,6 +75,7 @@ Given N(t) = n:
 install.packages("shiny")
 ```
 
+---
 ### Interpretation
 - Larger lambda → more jumps → larger values of S(t)
 - Larger mu → smaller jumps → smaller values of S(t)
