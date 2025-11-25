@@ -73,6 +73,7 @@ Given N(t) = n:
 
 ```r
 install.packages("shiny")
+```
 
 **### Interpretation**
 - Larger lambda → more jumps → larger values of S(t)
